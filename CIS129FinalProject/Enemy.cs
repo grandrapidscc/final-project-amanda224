@@ -8,14 +8,14 @@ namespace CIS129FinalProject
 {
     internal class Enemy
     {
-        private int _hpGoblin = 3;
-        private int _hpOrc = 5;
-        private int _hpBanshee = 8;
+        private int _hpGoblin;
+        private int _hpOrc;
+        private int _hpBanshee;
 
-        private int _GoblinAttackBodySlam = 2;
-        private int _OrcAttackCleave = 3;
-        private int _BansheeAttackScreech = 5;
-        
+        private int _GoblinAttackBodySlam;
+        private int _OrcAttackCleave;
+        private int _BansheeAttackScreech;
+
         public Enemy(int hpGoblin, int hpOrc, int hpBanshee, int GoblinAttackBodySlam, int OrcAttackCleave, int BansheeAttackScreech)
         {
             _hpGoblin = hpGoblin;
@@ -25,6 +25,6 @@ namespace CIS129FinalProject
             _OrcAttackCleave = OrcAttackCleave;
             _BansheeAttackScreech = BansheeAttackScreech;
         }
-            
+
     }
 }

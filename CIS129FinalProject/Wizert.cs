@@ -8,8 +8,8 @@ namespace CIS129FinalProject
 {
     internal class Wizert
     {
-        private int _hpWizert = 100;
-        private int _mpWizert = 200;
+        private int _hpWizert;
+        private int _mpWizert;
 
         public Enemy Enemy;
         public Wizert(int hpWizert,
